@@ -2,7 +2,7 @@ package objects;
 
 
 public class ModuleCode {
-    String User;
+    public String User;
     int Age;
     public ModuleCode(String User, int age) {
         this.User = User;
