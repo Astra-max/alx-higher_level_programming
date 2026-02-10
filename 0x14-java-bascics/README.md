@@ -247,7 +247,7 @@ Practice:
 
 ---
 
-# ⏳ Suggested Timeline
+# Suggested Timeline
 
 | Phase | Duration |
 |--------|-----------|
@@ -262,7 +262,7 @@ Total ≈ 3–4 months focused learning
 
 ---
 
-# ✅ Final Skill Checklist
+# Final Skill Checklist
 
 You’re job-ready when you can:
 
