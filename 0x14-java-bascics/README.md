@@ -3,14 +3,14 @@
 # AUTHOR
   **Astra-max**
 
-# ☕ Java Programming Roadmap
+# Java Programming Roadmap
 > A complete step-by-step path from Beginner → Backend/Enterprise Java Developer
 
 Follow phases in order. Do not skip.
 
 ---
 
-# 🚀 Phase 0 — Setup (1 day)
+#  Phase 0 — Setup (1 day)
 
 Install:
 - JDK 21 (LTS)
@@ -27,7 +27,7 @@ mvn -v
 
 ---
 
-# 🚀 Phase 1 — Java Fundamentals (2–3 weeks)
+#  Phase 1 — Java Fundamentals (2–3 weeks)
 
 Learn:
 - Syntax
@@ -46,7 +46,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 2 — Object-Oriented Programming (2 weeks)
+#  Phase 2 — Object-Oriented Programming (2 weeks)
 
 Learn:
 - Classes & Objects
@@ -65,7 +65,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 3 — Core Java Deep Dive (2–3 weeks)
+#  Phase 3 — Core Java Deep Dive (2–3 weeks)
 
 Learn:
 - Collections (List, Set, Map)
@@ -85,7 +85,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 4 — Functional & Modern Java (1 week)
+#  Phase 4 — Functional & Modern Java (1 week)
 
 Learn:
 - Lambda expressions
@@ -99,7 +99,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 5 — Concurrency & Multithreading (2 weeks)
+#  Phase 5 — Concurrency & Multithreading (2 weeks)
 
 Learn:
 - Threads
@@ -123,7 +123,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 6 — Build Tools & Project Structure (3 days)
+#  Phase 6 — Build Tools & Project Structure (3 days)
 
 Learn:
 - Maven
@@ -136,7 +136,7 @@ Learn:
 
 ---
 
-# 🚀 Phase 7 — Databases (1–2 weeks)
+#  Phase 7 — Databases (1–2 weeks)
 
 Learn:
 - JDBC
@@ -153,7 +153,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 8 — Spring Boot (Backend Development) (3–4 weeks)
+#  Phase 8 — Spring Boot (Backend Development) (3–4 weeks)
 
 Learn:
 - Spring Boot basics
@@ -185,7 +185,7 @@ Practice projects:
 
 ---
 
-# 🚀 Phase 9 — Testing & Clean Code (1 week)
+#  Phase 9 — Testing & Clean Code (1 week)
 
 Learn:
 - Unit testing
@@ -201,7 +201,7 @@ Principles:
 
 ---
 
-# 🚀 Phase 10 — Production & DevOps (2 weeks)
+#  Phase 10 — Production & DevOps (2 weeks)
 
 Learn:
 - Docker
@@ -220,7 +220,7 @@ Practice:
 
 ---
 
-# 🚀 Phase 11 — Data Structures & Interviews (ongoing)
+#  Phase 11 — Data Structures & Interviews (ongoing)
 
 Learn:
 - Arrays
@@ -238,7 +238,7 @@ Practice:
 
 ---
 
-# 📚 Recommended Books
+#  Recommended Books
 
 - Effective Java
 - Head First Java
@@ -283,5 +283,3 @@ Become:
 - Java Backend Developer
 - Spring Boot Engineer
 - Enterprise Software Engineer
-
-Build real projects. Ship code. Practice daily.
