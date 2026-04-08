@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualBasic;
 namespace Variables
 {
     class Variables
@@ -14,6 +15,15 @@ namespace Variables
             Console.WriteLine("Age: " + age);
             Console.WriteLine("Height: " + height);
             Console.WriteLine("Is Student: " + isStudent);
+            Constants();
+        }
+
+        static void Constants()
+        {
+            const double PI = 3.142;
+            const int YEAR = 2024;
+            Console.WriteLine("PI: " + PI);
+            Console.WriteLine("Year: " + YEAR);
         }
     }
 }
