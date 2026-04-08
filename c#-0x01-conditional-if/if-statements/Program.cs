@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq.Expressions;
+using IfStatements.Switches;
 namespace IfStatements
 {
     class Program
@@ -20,6 +22,9 @@ namespace IfStatements
             {
                 Console.WriteLine("You are a young adult.");
             }
+
+            SwitchCases switchCases = new SwitchCases();
+            switchCases.SwitchCont();
         }
 
         static string? UserInput(string message)
