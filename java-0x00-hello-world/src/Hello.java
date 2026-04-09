@@ -6,7 +6,10 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
         PrimitiveVar.primVariables();
-        String newName = Referenced.strings(new User("james"));
+
+        Referenced ref = new Referenced();
+
+        String newName = ref.strings(new User("Astra6"));
         System.out.println("My new name is: " + newName);
     }
 }
