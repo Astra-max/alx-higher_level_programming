@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Rabbit r = new Rabbit();
         Hawk h = new Hawk();
+        Fish f = new Fish();
         r.flee();
         h.hunt();
+        f.flee();
+        f.hunt();
     }
 }
