@@ -5,4 +5,7 @@ public class Car extends Vehicle {
         this.name = name;
         this.color = color;
     }
+    public void move() {
+        System.out.println("the car is moving");
+    }
 }
