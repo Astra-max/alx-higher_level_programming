@@ -1,0 +1,15 @@
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/bin/Debug/net10.0/if-statements
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/bin/Debug/net10.0/if-statements.deps.json
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/bin/Debug/net10.0/if-statements.runtimeconfig.json
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/bin/Debug/net10.0/if-statements.dll
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/bin/Debug/net10.0/if-statements.pdb
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.GeneratedMSBuildEditorConfig.editorconfig
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.AssemblyInfoInputs.cache
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.AssemblyInfo.cs
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.csproj.CoreCompileInputs.cache
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.sourcelink.json
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.dll
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/refint/if-statements.dll
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.pdb
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/if-statements.genruntimeconfig.cache
+/home/maodongo/Desktop/astra/alx-higher_level_programming/c#-0x01-conditional-if/if-statements/obj/Debug/net10.0/ref/if-statements.dll
