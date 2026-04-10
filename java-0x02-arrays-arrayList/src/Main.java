@@ -2,14 +2,21 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        String[] names = {"jame", "evans"}
+        forLoopArrInt();
+        forLoopArrStr();
+    }
+    public static void forLoopArrStr() {
+        String[] userNames = {"James", "Adede", "Alphonse"};
 
-        for (int i = 0; i < names.length; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println(names[i]);
+        for (String user : userNames) {
+            System.out.println(user + "is our member");
+        }
+    }
+    public static void forLoopArrInt() {
+        int[] userAges = {23,44,56};
+
+        for (int i = 0; i<userAges.length; i++) {
+            System.out.println(i + " user: "+ "age: "+ userAges[i]);
         }
     }
 }
