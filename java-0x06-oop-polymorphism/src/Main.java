@@ -1,4 +1,8 @@
 import java.util.Scanner;
+import oopInterfaces.Animal;
+import oopInterfaces.DefaultAnimal;
+import oopInterfaces.Dog;
+import oopInterfaces.Goat;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -11,7 +15,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        int userInput = input("Select animal (1=cat, 2=cow): ");
+        int userInput = input("Select animal (1=dog, 2=goat): ");
         Animal animal = control(userInput);
         animal.sound();
     }
@@ -22,9 +26,9 @@ public class Main {
     }
     public static Animal control(int userInput) {
         return switch (userInput) {
-            case 1 -> new Cat();
-            case 2 -> new Cow();
-            default -> new Animal();
+            case 1 -> new Dog();
+            case 2 -> new Goat();
+            default -> new DefaultAnimal();
         };
     }
 }
