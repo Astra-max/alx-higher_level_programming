@@ -12,27 +12,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int userInput = input("Select animal (1=cat, 2=cow): ");
-        control(userInput);
+        Animal animal = control(userInput);
+        animal.sound();
     }
     public static int input(String message) {
         System.out.print(message);
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
-    public static void control(int userInput) {
-        Animal animal;
-        switch (userInput) {
-            case 1:
-                animal = new Cat();
-                animal.sound();
-                break;
-            case 2:
-                animal = new Cow();
-                animal.sound();
-                break;
-            default:
-                animal = new Animal();
-                animal.sound();
-        }
+    public static Animal control(int userInput) {
+        return switch (userInput) {
+            case 1 -> new Cat();
+            case 2 -> new Cow();
+            default -> new Animal();
+        };
     }
 }
