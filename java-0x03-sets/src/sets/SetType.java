@@ -18,4 +18,13 @@ public class SetType {
             System.out.println("value not found");
         }
     }
+    public void exist(int value) {
+        boolean ok = st.contains(value);
+
+        if (ok) {
+            System.out.println("value exist on set");
+        } else {
+            System.out.println("value not found");
+        }
+    }
 }
