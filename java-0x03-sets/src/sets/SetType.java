@@ -27,4 +27,13 @@ public class SetType {
             System.out.println("value not found");
         }
     }
+    public boolean duplicates(int[] arr) {
+        for (int val : arr) {
+            if (!st.add(val)) {
+                System.out.println("found duplicate");
+                return true;
+            }
+        }
+        return false;
+    }
 }
