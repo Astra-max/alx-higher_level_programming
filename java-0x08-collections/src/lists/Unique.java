@@ -17,4 +17,12 @@ public class Unique {
         }
         return false;
     }
+    public boolean exist(String name) {
+        boolean ok = st.contains(name);
+        if (ok) {
+            System.out.println("User exist");
+            return true;
+        }
+        return false;
+    }
 }
