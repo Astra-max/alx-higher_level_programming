@@ -9,4 +9,16 @@ public class MyQueue {
     public void add(String name) {
         q.add(name);
     }
+
+    public boolean remove(String name) {
+        try {
+            boolean done = q.remove(name);
+            if (done) {
+                return true;
+            }
+        } catch (Exception e) {
+            System.out.println("Failed to removed user");
+        }
+        return false;
+    }
 }
