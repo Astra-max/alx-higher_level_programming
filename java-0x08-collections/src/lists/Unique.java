@@ -32,4 +32,13 @@ public class Unique {
         }
         return false;
     }
+
+    public int size() {
+        return st.size();
+    }
+
+    public void union() {
+        Set<String> users = new HashSet<>();
+        st.addAll(users);
+    }
 }
