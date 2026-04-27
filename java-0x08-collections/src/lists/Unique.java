@@ -7,8 +7,15 @@ public class Unique {
     private final Set<String> st = new HashSet<>();
 
     public void add(String name) {
-        st.add(name);
+        boolean exists = st.add(name);
+
+        if (!exists) {
+            System.out.println("Added user succefully");
+            return;
+        }
+        System.out.println("oops user exist");
     }
+
     public boolean remove(String name) {
         boolean removed = st.remove(name);
         if (removed) {
