@@ -21,4 +21,18 @@ public class MyQueue {
         }
         return false;
     }
+
+    public String top() {
+        try {
+            String topVal = q.peek();
+
+            if (!topVal.equals("")) {
+                return topVal;
+            }
+
+        } catch (Exception e) {
+            System.out.println("Error finding value at the top");
+        }
+        return "";
+    }
 }
