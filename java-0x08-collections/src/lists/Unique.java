@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class Unique {
     private final Set<String> st = new HashSet<>();
+    private final Set<String> users = new HashSet<>();
 
     public void add(String name) {
         boolean exists = st.add(name);
@@ -38,7 +39,15 @@ public class Unique {
     }
 
     public void union() {
-        Set<String> users = new HashSet<>();
         st.addAll(users);
     }
+
+    public void retainBoth() {
+        st.retainAll(users);
+    }
+
+    public void forEach() {
+        st.forEach(element -> System.out.println(element));
+    }
+
 }
