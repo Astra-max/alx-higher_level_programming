@@ -50,4 +50,12 @@ public class Unique {
         st.forEach(element -> System.out.println(element));
     }
 
+    public void Iterator() {
+        java.util.Iterator<String> iter = st.iterator();
+
+        while (iter.hasNext()) {
+            String val = iter.next();
+            System.out.println(val);
+        }
+    }
 }
