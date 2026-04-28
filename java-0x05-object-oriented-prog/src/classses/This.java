@@ -9,3 +9,10 @@ public class This {
         this.name = name;
     }
 }
+
+// public class Super extends This {
+//     String name;
+//     public String getName() {
+//         return super.name;
+//     }
+// }
