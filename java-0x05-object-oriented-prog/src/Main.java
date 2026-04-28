@@ -10,5 +10,8 @@ public class Main {
         CarConstructor c = new CarConstructor("Toyota", "green", 2024);
         c.getDetails();
         car.drive();
+
+        Anonymous anon = new Anonymous();
+        anon.print();
     }
 }

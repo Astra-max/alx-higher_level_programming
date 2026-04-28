@@ -1,5 +1,6 @@
 public class ImplementAbs extends Abstraction {
-    private String user = "astra6";
+    final private String user = "astra6";
+    @Override
     public String getUser() {
         return this.user;
     }
