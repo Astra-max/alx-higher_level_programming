@@ -1,6 +1,5 @@
 package errors;
 
-
 import java.util.Scanner;
 
 
