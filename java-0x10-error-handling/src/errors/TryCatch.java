@@ -12,7 +12,7 @@ public class TryCatch {
         
         try {
             return scan.nextInt();
-        } catch(Exception e) {
+        } catch(CustomeErrors e) {
             System.out.println(e);
             return 0;
         }

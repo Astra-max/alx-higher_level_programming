@@ -1,8 +1,8 @@
-import errors.ThrowingErrors;
+import errors.TryCatch;
 
 public class Main {
     public static void main(String[] arg) {
-        ThrowingErrors thrw = new ThrowingErrors();
-        System.out.println("Answer == " + thrw.party(13));
+        TryCatch tr = new TryCatch();
+        tr.divide();
     }
 }
