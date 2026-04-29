@@ -1,11 +1,22 @@
 package com;
 
-public class GenericClass<T> {
-    private final T userName;
-    public GenericClass(T user) {
-        this.userName = user;
+/**
+ * GenericClass - is generic class
+ * enable code reusability
+ */
+
+public class GenericClass<T> implements GenericInterface<T> {
+    private  T value;
+    public GenericClass(T value) {
+        this.value = value;
     }
-    public T getName() {
-        return userName;
+
+    @Override
+    public T getValue() {
+        return value;
+    }
+    @Override
+    public void setValue(T value) {
+        this.value = value;
     }
 }
