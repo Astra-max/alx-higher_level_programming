@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Basics {
     private final String myFile;
     private final File file;
+
     public Basics(String fileName) {
         this.myFile = fileName;
         this.file = new File(fileName);
@@ -39,6 +40,15 @@ public class Basics {
             System.out.printf("error: %s\n", e.getMessage());
         }
     }
+
+    public void fileInfo() {
+        System.out.printf("File Location: %s\n",this.file.getAbsolutePath());
+        System.out.printf("File Name: %s\n",this.file.getName());
+        System.out.printf("File size: %s\n",this.file.length());
+        System.out.printf("File is readable: %s\n",this.file.canRead());
+        System.out.printf("File is writable: %s\n",this.file.canWrite());
+    }
+
     public void read() {
         try {
             Scanner reader = new Scanner(this.file);
