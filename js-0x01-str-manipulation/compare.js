@@ -22,7 +22,7 @@ console.log(sorted)
 let test = "\uD800".isWellFormed()
 console.log(test)
 
-// methods
+// available string methods
 // endsWith
 //includes
 //indexOf
@@ -32,3 +32,5 @@ console.log(test)
 //repeat
 //padStart
 //padEnd
+//lastIndexOf -- return index of last occurence of a string
+//IndexOf -- returns index of first occurence of  a character
