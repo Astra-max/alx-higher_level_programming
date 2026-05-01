@@ -1,3 +1,5 @@
+// strings are sequences of utf-16 encoded characters
+
 let name = "james"
 
 let reversedName = name.split('').reverse().join('')
