@@ -1,0 +1,12 @@
+{
+  "name": "ts-0x13-unit-testing",
+  "version": "1.0.0",
+  "description": "jest",
+  "license": "MIT",
+  "author": "Astra-max",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
