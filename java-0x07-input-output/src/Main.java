@@ -11,6 +11,7 @@ public class Main {
 
     public void control(String fileName) {
         Basics ioFileOper = new Basics(fileName);
+        ioFileOper.fileInfo();
 
         if (!ioFileOper.checkFile()) {
             ioFileOper.create();

@@ -56,6 +56,7 @@ public class Basics {
                 String data = reader.nextLine();
                 System.out.println(data);
             }
+        System.out.printf("File Location: %s\n",this.file.getAbsolutePath());
             reader.close();
         } catch(FileNotFoundException e) {
             System.out.printf("file not found: %s\n", e.getMessage());
