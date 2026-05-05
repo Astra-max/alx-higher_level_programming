@@ -11,8 +11,10 @@ function format() {
 }
 
 function formatTime() {
-    const options = { hour: '2-digit'}
-    return currentDate().toLocaleDateString("en-GB", options)
+    const light = currentDate().getHours()
+    const meridiam = light > 12 ? "am" : "pm"
+    const options = { hour: '2-digit', minute: '2-digit'}
+    return currentDate().toLocaleDateString("en-GB", options) + " " + meridiam
 }
 
 console.log(formatTime())
