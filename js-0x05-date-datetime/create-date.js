@@ -1,8 +1,6 @@
-function currentDate() {
-    const dateNow = new Date()
-    console.log(dateNow)
+export function currentDate() {
+    return new Date()
 }
-currentDate()
 
 // Date() return string rep of current date
 // return type is string
