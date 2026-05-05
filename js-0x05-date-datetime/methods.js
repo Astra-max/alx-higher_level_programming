@@ -1,4 +1,4 @@
-import { currentDate } from "./create-date";
+import { currentDate } from "./create-date.js";
 
 /**
  * 
@@ -20,3 +20,12 @@ function getMonth() {
 function getDay() {
     return currentDate().getDay()
 }
+
+function toLocal() {
+    return currentDate().toLocaleDateString()
+}
+
+function print() {
+    console.log(`${toLocal()}`)
+}
+print()
