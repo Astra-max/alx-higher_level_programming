@@ -2,6 +2,7 @@
 /**
  * Wrapper - gives us away to work with primitive type as objects
  * all methods and obj implements, can work on them
+ * why needed --> collection types can work with primitive type
  */
 
 
