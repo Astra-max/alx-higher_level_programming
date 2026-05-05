@@ -28,4 +28,8 @@ function toLocal() {
 function print() {
     console.log(`${toLocal()}`)
 }
+
+function toJson() {
+    return currentDate().toJSON()
+}
 print()
