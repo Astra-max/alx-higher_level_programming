@@ -10,4 +10,9 @@ function format() {
     return formated
 }
 
-console.log(format())
+function formatTime() {
+    const options = { hour: '2-digit'}
+    return currentDate().toLocaleDateString("en-GB", options)
+}
+
+console.log(formatTime())
