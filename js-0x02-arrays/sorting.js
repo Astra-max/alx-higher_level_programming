@@ -9,6 +9,7 @@ import { ages } from "./methods.js"
 // a - b -- forces the values to numbers
 
 const asc = (a,b) => a - b;
+const desc = (a,b) => b - a;
 
 const newlySorted = ages.sort(asc)
 
