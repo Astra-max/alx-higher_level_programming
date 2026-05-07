@@ -22,3 +22,8 @@ userList.forEach((val) => console.log(user));
 // Array.prototype.forEach.call(obj, function)
 
 Array.prototype.forEach.call(user, (user) => console.log(user))
+
+// via object.values
+
+Object.values(user).map((u)=> typeof u === "string" &&
+console.log(`${u} is my new friend`))
