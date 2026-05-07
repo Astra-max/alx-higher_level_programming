@@ -1,4 +1,4 @@
-let friends = ["james", "evans", "silas", "agnes", "eunice"]
+export let friends = ["james", "evans", "silas", "agnes", "eunice"]
 
 for (let friend of friends) {
     console.log(`${friend} is my friend`)
