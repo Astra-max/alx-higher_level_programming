@@ -7,3 +7,7 @@ ages.push(30) // appends value at the end of list
 
 ages.pop() // remove from end return the array
 ages.shift() // removes first element from the array and return the array
+
+// inserting at a particular inder
+
+ages.splice(1, 0, 79, 90)
