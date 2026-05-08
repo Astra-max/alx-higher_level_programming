@@ -1,6 +1,5 @@
 from remove import nums
 
-
 def pop(arr):
     if len(arr) == 0:
         return 0
