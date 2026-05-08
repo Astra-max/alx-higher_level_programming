@@ -9,5 +9,5 @@ def remove(nums, val):
 
     print(results)
 
-nums = [3]
+nums = [1,2,3,3,4,5,6,6,7,9,10]
 remove(nums, 2)
