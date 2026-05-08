@@ -10,3 +10,6 @@ counts = friends.count("judy")
 
 for friend in friends:
     print(friend)
+
+
+print(f"judy exists {counts} times")
