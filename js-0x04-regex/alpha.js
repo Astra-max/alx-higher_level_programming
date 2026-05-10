@@ -1,3 +1,4 @@
-const upperCase = str => str.match(/[A-Z]/) || []
+const upperCase = str => str.match(/[A-Z]/g) || []
 const lowerCase = str => str.match(/[a-z]/g) || []
-console.log(upperCase("Astra").length > 0)
+const allCase = str => str.match(/[a-z]/gi) || []
+console.log(allCase("Astra"))
