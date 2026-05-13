@@ -35,7 +35,7 @@ public class Heap<T> {
     }
     public Heap<T> setValue(T from, T to) {
         if (!pq.contains((from))) return this;
-        
+
         Heap<T> newHeap = new Heap<>();
         Iterator<T> it = pq.iterator();
 
@@ -48,5 +48,9 @@ public class Heap<T> {
             }
         }
         return newHeap;
+    }
+    public boolean removeVal(T value) {
+        if (this.pq.contains(value)) return this.pq.remove(value);
+        return false;
     }
 }
