@@ -3,21 +3,24 @@ package priorique.libs;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
-public class Heap {
-    private PriorityQueue<String> pq;
-    public Heap(PriorityQueue<String> pq) {
+public class Heap<T> {
+    private PriorityQueue<T> pq;
+    public Heap(PriorityQueue<T> pq) {
         this.pq = pq;
     }
-    public void add(String user) {
+    public void add(T user) {
         //check if user exist in the list
         if (!pq.contains(user)) pq.add(user);
+        else {
+            System.out.printf("User %s exists\n", user);
+        }
     }
     public void print() {
-        Iterator<String> it = pq.iterator();
+        Iterator<T> it = pq.iterator();
 
         while (it.hasNext()) {
-            String user = it.next();
-            System.out.printf("user %s: ", user);
+            T user = it.next();
+            System.out.printf("user :%s \n", user);
         }
     }
 }
