@@ -23,4 +23,8 @@ public class Heap<T> {
             System.out.printf("user :%s \n", user);
         }
     }
+    public T getValue(T val) {
+        if (pq.contains(val)) return val;
+        return null;
+    }
 }
