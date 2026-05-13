@@ -27,4 +27,19 @@ public class Heap<T> {
         if (pq.contains(val)) return val;
         return null;
     }
+    public PriorityQueue<T> setValue(T from, T to) {
+        if (!pq.contains((from))) return pq;
+        PriorityQueue<T> newHeap = new PriorityQueue<>();
+        Iterator<T> it = pq.iterator();
+
+        while (it.hasNext()) {
+            T toChange = it.next();
+            if (toChange.equals(from)) {
+                newHeap.add(to);
+            } else {
+                newHeap.add(toChange);
+            }
+        }
+        return newHeap;
+    }
 }
