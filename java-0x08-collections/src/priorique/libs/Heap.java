@@ -53,4 +53,9 @@ public class Heap<T> {
         if (this.pq.contains(value)) return this.pq.remove(value);
         return false;
     }
+
+    public boolean removeAll(T value) {
+        if (this.pq.contains(value)) return this.pq.removeAll(this.pq);
+        return false;
+    }
 }
