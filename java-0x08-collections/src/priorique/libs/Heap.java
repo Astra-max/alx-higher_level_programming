@@ -5,9 +5,15 @@ import java.util.PriorityQueue;
 
 public class Heap<T> {
     private PriorityQueue<T> pq;
+
+    public Heap() {
+        this.pq = new PriorityQueue<>();
+    }
+
     public Heap(PriorityQueue<T> pq) {
         this.pq = pq;
     }
+
     public void add(T user) {
         //check if user exist in the list
         if (!pq.contains(user)) pq.add(user);
@@ -27,9 +33,10 @@ public class Heap<T> {
         if (pq.contains(val)) return val;
         return null;
     }
-    public PriorityQueue<T> setValue(T from, T to) {
-        if (!pq.contains((from))) return pq;
-        PriorityQueue<T> newHeap = new PriorityQueue<>();
+    public Heap<T> setValue(T from, T to) {
+        if (!pq.contains((from))) return this;
+        
+        Heap<T> newHeap = new Heap<>();
         Iterator<T> it = pq.iterator();
 
         while (it.hasNext()) {

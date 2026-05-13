@@ -9,6 +9,7 @@ public class Main {
     Heap<String> heap = new Heap<>(pq);
     heap.add("max");
     heap.add("max");
-    heap.print();
+    Heap<String> newHeap = heap.setValue("max", "astra6");
+    newHeap.print();
  }   
 }
