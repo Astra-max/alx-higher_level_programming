@@ -1,7 +1,7 @@
 function split(str, delim) {
 	let results = []
 	let startIdx =0
-	let delimLen = delim.length-1
+	let delimLen = delim.length
 
 	for (let i =0; i<str.length; i++) {
 		if (str.slice(i, i + delimLen) === delim) {
