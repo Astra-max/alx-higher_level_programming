@@ -1,4 +1,4 @@
-function split(str, delim) {
+export function split(str, delim) {
 	let results = []
 	let startIdx =0
 	let delimLen = delim.length
