@@ -13,7 +13,7 @@ public class MyVector {
 	}
 
 	public boolean addAtIdx(int idx, String friend) {
-		return friends.add(1, friend);
+		return friends.add(idx, friend);
 	}
 
 	public boolean remove(String fakeFriends) {
@@ -29,5 +29,9 @@ public class MyVector {
 	}
 	public String getFriend(String friend) {
 		return friends.get(friend);
+	}
+
+	public void changeFriends(int idx, String friend) {
+		return friends.set(idx, friend);
 	}
 }
