@@ -15,4 +15,9 @@ public class MyVector {
 	public boolean remove(String fakeFriends) {
 		return friends.remove(fakeFriends);
 	}
+	public void print() {
+		for (String friend: friends) {
+			System.out.printf("%s is amazing friend of mine\n", friend);
+		}
+	}
 }
