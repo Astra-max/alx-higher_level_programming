@@ -27,4 +27,7 @@ public class MyVector {
 	public boolean exists(String fakeFriend) {
 		return friends.contains(fakeFriends);
 	}
+	public String getFriend(String friend) {
+		return friends.get(friend);
+	}
 }
