@@ -20,4 +20,7 @@ public class MyVector {
 			System.out.printf("%s is amazing friend of mine\n", friend);
 		}
 	}
+	public boolean exists(String fakeFriend) {
+		return friends.contains(fakeFriends);
+	}
 }
