@@ -12,6 +12,10 @@ public class MyVector {
 		return true;
 	}
 
+	public boolean addAtIdx(int idx, String friend) {
+		return friends.add(1, friend);
+	}
+
 	public boolean remove(String fakeFriends) {
 		return friends.remove(fakeFriends);
 	}
