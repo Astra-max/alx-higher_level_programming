@@ -11,4 +11,8 @@ public class MyVector {
 		friends.add(friend);
 		return true;
 	}
+
+	public boolean remove(String fakeFriends) {
+		return friends.remove(fakeFriends);
+	}
 }
