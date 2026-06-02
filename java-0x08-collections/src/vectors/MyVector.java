@@ -6,4 +6,9 @@ public class MyVector {
 	public int size() {
 		return friends.size();
 	}
+
+	public boolean add(String friend) {
+		friends.add(friend);
+		return true;
+	}
 }
