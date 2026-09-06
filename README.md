@@ -1,4 +1,4 @@
-# 🚀 HIGHER LEVEL PROGRAMMING
+#  HIGHER LEVEL PROGRAMMING
 
 **Author: Astra Max**
 
@@ -10,7 +10,7 @@ The goal of this repository is to document my growth as a developer while improv
 
 ---
 
-# 📚 Languages Covered
+# Languages Covered
 
 This repository contains projects, exercises, and experiments using:
 
@@ -138,7 +138,7 @@ TypeScript projects focus on creating:
 
 ---
 
-# 🧠 Concepts Practiced
+# Concepts Practiced
 
 Across these languages, this repository focuses on:
 
@@ -208,7 +208,7 @@ Learning:
 
 ---
 
-# 🏗️ Repository Structure
+# Repository Structure
 
 The repository is organized by programming language.
 
@@ -268,7 +268,7 @@ A place to experiment with:
 * Programming techniques
 * Different approaches to solving problems
 
-## 💼 Portfolio Evidence
+##  Portfolio Evidence
 
 Demonstrates practical understanding of:
 
@@ -279,7 +279,7 @@ Demonstrates practical understanding of:
 
 ---
 
-# 🛠️ Development Approach
+#  Development Approach
 
 The projects in this repository follow professional development practices:
 
@@ -292,7 +292,7 @@ The projects in this repository follow professional development practices:
 
 ---
 
-# 🌱 Learning Goals
+#  Learning Goals
 
 The main goals of this repository are:
 
@@ -342,7 +342,7 @@ Future additions will include:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Astra Max**
 
