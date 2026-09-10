@@ -7,10 +7,11 @@ import (
 	"testing"
 )
 
-func Test_Unique(t *testing.T) {
-	for _, tt := range data.UniqueNumbersTestCases {
+func Test_CommonElement(t *testing.T) {
+
+	for _, tt := range data.CommonElementsTestCases {
 		t.Run(tt.Name, func(t *testing.T) {
-			got := libs.UniqueNumbers(tt.Input)
+			got := libs.FindCommon(tt.InputA, tt.InputB)
 
 			if !reflect.DeepEqual(got, tt.Expected) {
 				t.Errorf("Expected %v but got %v\n", tt.Expected, got)
@@ -18,5 +19,3 @@ func Test_Unique(t *testing.T) {
 		})
 	}
 }
-
-func Test_Duplicates(t *testing.T) {}
