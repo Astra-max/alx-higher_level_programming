@@ -5,6 +5,7 @@ import (
 	"os"
 	"fmt"
 	"strings"
+	"strconv"
 )
 
 func CustomerQue(que []string) {
@@ -21,6 +22,19 @@ func CustomerQue(que []string) {
 			break
 		case "remove":
 			que = Remove(que)
+			break
+		case "remove middle":
+			message := ""
+			position := Input("Choose customer")
+			message, que = RemoveMiddle(position,que)
+			fmt.Println(message)
+			break
+		case "clear que":
+			que = ClearQue(que)
+			break
+		case "add many":
+			customers := Input("Enter customer names")
+			que = AddManyToQue(customers, que)
 			break
 		case "size":
 			fmt.Printf("Number of waiting customers %v\n",QueSize(que))
@@ -54,6 +68,15 @@ func AddToQue(customer string, que []string) []string {
 	return que
 }
 
+func AddManyToQue(customers string, que []string) []string {
+	tempQue := strings.Fields(customers)
+
+	for _, customer := range tempQue {
+		que = append(que, customer)
+	}
+	return que
+}
+
 func Remove(que []string) []string {
 	if !IsEmpty(que) {
 		fmt.Printf("Removing %s..\n", que[0])
@@ -62,6 +85,28 @@ func Remove(que []string) []string {
 	}
 	fmt.Println("Ooops!, no cutomer to serve today!")
 	return que
+}
+
+func RemoveMiddle(index string, que []string) (string, []string) {
+	position, err := strconv.Atoi(index)
+
+	if err != nil {
+		return "Invalid customer que position", nil
+	}
+
+	position--
+
+	if position < 0 || position >= QueSize(que) {
+		return "Invalid customer line position", nil
+	}
+
+	customer := que[position]
+
+	fmt.Printf("Removing %v.......\n", customer)
+
+	que = append(que[:position], que[position+1:]...)
+	message := fmt.Sprintf("Removed %v successfully", customer)
+	return message, que
 }
 
 func ShowQue(que []string) {
@@ -78,6 +123,10 @@ func ShowQue(que []string) {
 		}
 	}
 	fmt.Println()
+}
+
+func ClearQue(que []string) []string {
+	return que[0:0]
 }
 
 func Instructions() {
