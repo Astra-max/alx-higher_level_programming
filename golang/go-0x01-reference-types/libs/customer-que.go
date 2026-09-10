@@ -97,13 +97,16 @@ func RemoveMiddle(index string, que []string) (string, []string) {
 	position--
 
 	if position < 0 || position >= QueSize(que) {
-		return "Failed to remove customer", nil
+		return "Invalid customer line position", nil
 	}
 
-	fmt.Printf("Removing %v\n", que[position])
+	customer := que[position]
+
+	fmt.Printf("Removing %v.......\n", customer)
 
 	que = append(que[:position], que[position+1:]...)
-	return "removed successfully", que
+	message := fmt.Sprintf("Removed %v successfully", customer)
+	return message, que
 }
 
 func ShowQue(que []string) {
